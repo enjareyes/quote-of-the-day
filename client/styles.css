@@ -1,0 +1,20 @@
+body {
+  background: url('mountain.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}  
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background: white;
+  border-radius: 30px;
+  min-height: 200px;
+  background: rgba(255,255,255,0.9);  
+}
+
+.quoteBox {
+  margin-top: 25%;
+  padding: 7.5%;
+}

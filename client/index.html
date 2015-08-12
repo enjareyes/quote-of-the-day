@@ -1,0 +1,22 @@
+<html lang='en' ng-app='app'>
+  <head> 
+    <script src='bower_components/angular/angular.js'></script>
+    <script src='app.js'></script>
+    <link rel='stylesheet' type='text/css' href='styles.css'></link>
+  </head>
+
+  <body ng-controller='quote'> 
+    <div class='container'>
+      <!-- <a ng-click='getquote()'>Quote of the Day</a> -->
+
+      <div class='quoteBox'>
+        {{quote}}
+      </div>
+
+      <div class='auth'>
+        {{auth}}
+      </div>
+    </div>
+
+  </body>
+</html>
