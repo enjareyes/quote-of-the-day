@@ -4,7 +4,7 @@ var express = require('express'),
     cheerio = require('cheerio'),
     request = require('request');
      
-app.set('port', (3000));
+app.set('port', ( process.env.PORT || 3000));
 app.listen(app.get('port'), function() { 
   console.log('Node app running on port', app.get('port')) 
 });
